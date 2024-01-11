@@ -1,3 +1,3 @@
-select tweet_id
-from Tweets
-where char_length(content) > 15;
+SELECT  tweet_id
+FROM Tweets
+WHERE char_length(content) > 15;

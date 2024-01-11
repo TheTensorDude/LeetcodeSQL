@@ -1,4 +1,5 @@
-select *
-from Cinema
-where mod(id, 2) <> 0 and description <> 'boring'
-order by rating desc;
+SELECT  *
+FROM Cinema
+WHERE mod(id, 2) <> 0
+AND description <> 'boring'
+ORDER BY rating desc;

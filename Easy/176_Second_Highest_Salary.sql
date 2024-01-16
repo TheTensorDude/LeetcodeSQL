@@ -8,4 +8,4 @@ where
             max(salary)
         from
             Employee
-    )
+    );
